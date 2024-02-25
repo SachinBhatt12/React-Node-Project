@@ -64,8 +64,10 @@ In the `Jenkins-Pipeline-Code` directory, you'll find Jenkins pipeline scripts. 
  ``` shell
  cd my-react-app
   ```
-- Start the development server:
-- ``` shell
+- Star![project0 12](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/11b28bf3-5348-474b-bff8-6725acada12f)
+t the development server:
+  
+ ``` shell
   npm start
   ```
  ### Step 2: Backend Development with Node.js:
