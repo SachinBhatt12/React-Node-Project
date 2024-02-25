@@ -54,22 +54,22 @@ In the `Jenkins-Pipeline-Code` directory, you'll find Jenkins pipeline scripts. 
 
 ### Step 1: Frontend Development with React:
 
-![pro0 11](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/810962a0-a4c6-401c-a7d1-1868622743b2)
-
 - Create a new React application:
   ``` shell
   npx create-react-app .
   ```
+![pro0 11](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/810962a0-a4c6-401c-a7d1-1868622743b2)
+  
 - Navigate into the project directory:
  ``` shell
  cd my-react-app
   ```
-- Star![project0 12](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/11b28bf3-5348-474b-bff8-6725acada12f)
-t the development server:
-  
+- start the development server: 
  ``` shell
   npm start
   ```
+  ![project0 12](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/11b28bf3-5348-474b-bff8-6725acada12f)
+
  ### Step 2: Backend Development with Node.js:
  - Initialize a new Node.js project:
   ``` shell
