@@ -53,9 +53,12 @@ In the `Jenkins-Pipeline-Code` directory, you'll find Jenkins pipeline scripts. 
 
 
 ### Step 1: Frontend Development with React:
+
+![pro0 11](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/810962a0-a4c6-401c-a7d1-1868622743b2)
+
 - Create a new React application:
   ``` shell
-  npx create-react-app my-react-app
+  npx create-react-app .
   ```
 - Navigate into the project directory:
  ``` shell
