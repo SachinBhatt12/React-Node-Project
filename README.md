@@ -75,10 +75,15 @@ In the `Jenkins-Pipeline-Code` directory, you'll find Jenkins pipeline scripts. 
   ``` shell
  npm init -y
   ```
+ ![project1](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/bec60da5-ff9a-462e-9a97-fc474026fd8f)
+
+
 -Install necessary dependencies (e.g., Express for creating a web server):
  ``` shell
  npm install express
   ```
+![project2](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/f2b84381-956d-41a6-90cc-f96e0a8dbf30)
+
 
 ### Step 3: Configure SonarQube to Check Code Quality: Install SonarQube on your system and start the server.
       Configure SonarQube for your projects. You'll need to set up a sonar-project.properties file in your project directory to define properties for SonarQube analysis.
