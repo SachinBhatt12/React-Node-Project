@@ -1,6 +1,6 @@
 # # Development Workflow Automation with React, Node.js, SonarQube, Jenkins, and GitHub.
+![image1](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/a292fad4-5a68-4f2f-9e74-dbc042f8ccde)
 
-[Untitled design.pdf](https://github.com/SachinBhatt12/React-Node-Project/files/14397434/Untitled.design.pdf)
 
 ## Overview
 The primary objective of the project is to enhance the efficiency, quality, and reliability of software development through automation and standardization of key processes
