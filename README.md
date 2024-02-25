@@ -91,10 +91,17 @@ In the `Jenkins-Pipeline-Code` directory, you'll find Jenkins pipeline scripts. 
 
 ![sonarqube1](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/7e2fecb6-182c-4fe8-8074-17c3ac0c267c)
 
+![sonarqube2](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/afc2bb34-329d-4bf8-9fcf-d2edf432b07d)
+
+
+
 ![sonarqube3](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/55312d57-8f60-479a-8fd5-310bc0b6b4bd)
 
 
 ![sonarqube4](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/f763e118-e439-44fb-ae85-609d437f095c)
+
+![sonarqube5](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/93ed4606-a64d-47f4-be8a-f0601fe1e518)
+
 
 
 ### Step 4: configure the jenkins 
@@ -105,6 +112,31 @@ In the `Jenkins-Pipeline-Code` directory, you'll find Jenkins pipeline scripts. 
  -  Create a new Jenkins job
  -  configure source code management
  -  configure build triggers
+
+
+![jenkins1](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/a880bb7f-86dc-4dfe-9293-e0185eab0413)
+
+
+![jenkins4](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/2b90d9a6-0594-4cbd-8490-e2ad354041e4)
+
+
+![jenkins5](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/38c8cd29-0540-4637-ae8d-d2ab3d0ad56f)
+
+
+
+![jenkins6](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/0de2faa8-3bbc-4bef-bb55-cfb790c0a41b)
+
+
+
+![jenkins7](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/bd83795d-ec93-406a-b5ac-0ed7f99903f0)
+
+![jenkins8](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/17a575ef-d1ac-41f9-92a2-94b40e475a9a)
+
+
+![jenkins9](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/7a029f4f-bfd9-420f-8d0f-927fdb60dc53)
+
+![jenkins10](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/d2591a75-c8be-4ae7-8512-d9aa4b388df5)
+
 
    
 ### Step 5: you can create a repository on GitHub for your React application using commands:
