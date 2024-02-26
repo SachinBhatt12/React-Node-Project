@@ -164,45 +164,62 @@ Replace <repository_url> with the URL of your GitHub repository and <branch_name
 
 ### Step 5: To automate deployment to the development environment on successful check-ins to the dev branch, you can use Jenkins pipelines
 ``` shell
+
+    
 pipeline {
     agent any
     
     stages {
         stage('Checkout') {
             steps {
-                // Checkout the code from the dev branch
-                git branch: 'dev', url: 'https://github.com/yourusername/your-repo.git'
+                // Checkout your project from version control
+                git 'your_repository_url'
+            }
+        }
+        
+        stage('Install Dependencies') {
+            steps {
+                // Install Node.js dependencies
+                sh 'npm install'
             }
         }
         
         stage('Build') {
             steps {
-                // Build your React application
-                sh 'npm install'
+                // Build your React app
                 sh 'npm run build'
             }
         }
         
-        stage('Deploy to Dev') {
+        stage('Test') {
             steps {
-                // Deploy your application to the development environment
-                // This could involve copying files to a server, Dockerizing your app, etc.
-                // Example: Copying files to a server
-                sh 'scp -r build/* user@dev-server:/path/to/destination'
+                // Run tests (if applicable)
+                sh 'npm test'
+            }
+        }
+        
+        stage('Deploy') {
+            steps {
+                // Example deployment step, replace with your deployment script or commands
+                sh 'npm run deploy'
             }
         }
     }
     
     post {
         success {
-            // Update the version number in package.json
-            sh "npm version patch"
-            
-            // Push the updated version to the dev branch
-            sh "git push origin dev"
+            // If the pipeline successfully completes
+            echo 'Pipeline completed successfully!'
+            // You might trigger notifications or other post-build actions here
+        }
+        failure {
+            // If the pipeline fails
+            echo 'Pipeline failed!'
+            // You might trigger notifications or other post-build actions here
         }
     }
 }
+
 
 ```
 
