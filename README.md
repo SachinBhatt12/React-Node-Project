@@ -229,8 +229,11 @@ pipeline {
    .  Configure the pipeline to trigger on successful check-ins to the dev branch.
    
    . Define stages in the pipeline:
+   
       (1) Checkout: Retrieve the code from the dev branch.
+      
       (2) Build: Build the React application.
+      
       (3) Deploy to Dev: Deploy the application to the development environment.
 
       
