@@ -173,7 +173,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your project from version control
-                git 'your_repository_url'
+                git "https://github.com/SachinBhatt12/React-Node-Project.git", branch:"main"
             }
         }
         
