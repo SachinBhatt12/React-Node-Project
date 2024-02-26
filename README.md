@@ -225,11 +225,15 @@ pipeline {
 
 ### Step 6: Automate Deployment to Dev Environment on Successful Check-in
    . Create a Jenkins pipeline in your GitHub repository.
+   
    .  Configure the pipeline to trigger on successful check-ins to the dev branch.
+   
    . Define stages in the pipeline:
       (1) Checkout: Retrieve the code from the dev branch.
       (2) Build: Build the React application.
       (3) Deploy to Dev: Deploy the application to the development environment.
+
+      
   . Use post-actions to update the version number in package.json and push changes to the dev branch.
 
 
