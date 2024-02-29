@@ -1,14 +1,4 @@
-# # Development Workflow Automation with React, Node.js, SonarQube, Jenkins, and GitHub.
-![image1](https://github.com/SachinBhatt12/React-Node-Project/assets/109944791/a292fad4-5a68-4f2f-9e74-dbc042f8ccde)
-
-
-## Overview
-The primary objective of the project is to enhance the efficiency, quality, and reliability of software development through automation and standardization of key processes
-
-**Get The Challenge here**
-
-
-## Prerequisites
+# 
 
 - React Application Development in Visual Studio Code:     Installation of Node.js and npm (Node Package Manager)
 - Node.js Backend Application Development in Visual Studio Code:  Installation of Node.js and npm.
@@ -215,34 +205,6 @@ pipeline {
         failure {
             // If the pipeline fails
             echo 'Pipeline failed!'
-            // You might trigger notifications or other post-build actions here
-        }
-    }
-}
+            // You might trigger notifications or other post
 
-
-```
-
-### Step 6: Automate Deployment to Dev Environment on Successful Check-in
-   . Create a Jenkins pipeline in your GitHub repository.
-   
-   .  Configure the pipeline to trigger on successful check-ins to the dev branch.
-   
-   . Define stages in the pipeline:
-   
-      (1) Checkout: Retrieve the code from the dev branch.
-      
-      (2) Build: Build the React application.
-      
-      (3) Deploy to Dev: Deploy the application to the development environment.
-
-      
-  . Use post-actions to update the version number in package.json and push changes to the dev branch.
-
-
-
-## Support
-For any queries or issues, please open an issue in the repository.
-
----
-Happy Learning! 🚀👨‍💻👩‍💻
+#
